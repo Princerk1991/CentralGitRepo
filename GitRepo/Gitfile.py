@@ -5,7 +5,9 @@ git config
 git init
 git clone
 git add
+git add -A
 git commit
+git commit -a -m "This Cmd will skipp the Stageing Area and commit directly"
 git diff
 git reset
 git status
@@ -20,4 +22,3 @@ git remote
 git push
 git pull
 git stash
-
